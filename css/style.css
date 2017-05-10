@@ -33,8 +33,11 @@ h1, h4 {
     font-family: 'bebas_neue_regularregular';
     font-size: 5em;    
 }
-h4 {
+h4.footer-right {
     font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
 }
 h2 {
    font-family: 'josefin_sansregular';
@@ -44,6 +47,7 @@ h3 {
    font-family: 'josefin_sansregular';
    font-size: 1.75em;
 }
+
 
 .btn {
      font-family: 'josefin_sansregular';
