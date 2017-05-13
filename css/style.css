@@ -1,3 +1,17 @@
+html{
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;   
+}
+
 /*****fonts*******/
 @font-face {
     font-family: 'playfair_displayregular';
@@ -93,11 +107,10 @@ blockquote {
 } 
 /***Main Sections*****/
 .metalic { 
-			background: url('../images/metalic.jpg') 100% 0 fixed; 
-			 background-repeat: no-repeat;
-			height: auto;  
-			margin: 0 auto; 
-
+			background: url('../images/metalic.jpg') 100% 0 fixed; 		
+			height: 100%;  
+            margin: 0 auto; 
+            width: 100%; 
 		    position: relative; 
 		    box-shadow: 0 0 50px rgba(0,0,0,0.8);
 		    padding: 125px 0;
@@ -171,11 +184,9 @@ blockquote {
     margin: .75em;
 }
 #pubs-list h2, #pubs-list h3 {
+     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
     color: #fff;
 }
- #pubs-list h2 {
-     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
- }
 /********need******/
 .need {
     margin: 10em auto;
