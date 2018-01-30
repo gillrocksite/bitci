@@ -88,8 +88,9 @@ blockquote {
 
 .btn-info {   
       color: #ffffff; 
-      background-color: #526991; 
-      border-color: #130269; 
+      background-color: #b30000; 
+      border-color: #330000; 
+      margin-top: 2px;
 } 
     .btn-info:hover, 
     .btn-info:focus, 
@@ -97,8 +98,8 @@ blockquote {
     .btn-info.active, 
     .open .dropdown-toggle.btn-info { 
       color: #ffffff; 
-      background-color: #788087; 
-      border-color: #130269; 
+      background-color: #330000; 
+      border-color: #b30000; 
 } 
     .btn-info:active, 
     .btn-info.active, 
@@ -144,6 +145,11 @@ blockquote {
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
             padding: 125px 0; 
 		}
+#about {
+		  margin-top: 2rem;
+		  margin-bottom:2rem
+		      
+		}
 /******Misc. Sections****/		
 .pubs {  
      padding:3em;
@@ -159,6 +165,19 @@ blockquote {
 @media (max-width: 770px) {
     .banner {
         text-align: center;
+    }
+    .banner h1, .page-header h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .header-img {
+        max-width: 50%  
+    }
+    blockquote {
+        font-size: 1.75em;
     }
 }        
 /**********what section*******/
@@ -199,10 +218,6 @@ blockquote {
     max-height: 110px;
 }
 @media (max-width: 770px) {
-    .page-header h1 {
-        font-size: 3em;
-        text-align: center;
-    }
     #contact {
         padding: 50px 0;
     }
